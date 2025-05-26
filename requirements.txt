@@ -6,3 +6,4 @@ moviepy
 tiktok-uploader
 imageio
 imageio-ffmpeg
+--upgrade-strategy eager
