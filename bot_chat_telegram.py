@@ -9,7 +9,7 @@ from tiktok_uploader.upload import upload_video
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-ROOT_FOLDER = r"D:\lambaotiktok"
+RROOT_FOLDER = os.path.join(os.getcwd(), "data")
 COOKIES_LIST = [{"name": "sessionid", "value": "bbf8f1e1c87dd8c1ecfb90d529b10497"}]
 
 TELEGRAM_TOKEN = "7910886210:AAHqWJtNx-UGsuxaY6xd53M46TE8HOGEtrQ"  # <-- thay bằng token bot của bạn
