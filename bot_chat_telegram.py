@@ -12,8 +12,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 RROOT_FOLDER = os.path.join(os.getcwd(), "data")
 COOKIES_LIST = [{"name": "sessionid", "value": "bbf8f1e1c87dd8c1ecfb90d529b10497"}]
 
-TELEGRAM_TOKEN = "7910886210:AAHqWJtNx-UGsuxaY6xd53M46TE8HOGEtrQ"  # <-- thay bằng token bot của bạn
-YOUR_CHAT_ID = 7910886210  # <-- thay bằng chat_id của bạn
+TELEGRAM_TOKEN = "7671313066:AAEHgsqj1ptzZeuAnh3DYtTBdT15XcKH9ks"  # <-- thay bằng token bot của bạn
+YOUR_CHAT_ID = 7671313066  # <-- thay bằng chat_id của bạn
 
 # --- Các hàm xử lý ---
 def get_article_content_images_and_audio(url):
