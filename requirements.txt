@@ -1,6 +1,8 @@
+python-telegram-bot==20.3
 requests
 beautifulsoup4
 pydub
 moviepy
 tiktok-uploader
-python-telegram-bot==20.0
+imageio
+imageio-ffmpeg
