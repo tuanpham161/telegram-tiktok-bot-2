@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+pydub
+moviepy
+tiktok-uploader
+python-telegram-bot==20.0
